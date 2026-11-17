@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="plna_navy">#FF0B1F3A</color>
+    <color name="plna_navy_dark">#FF071526</color>
+    <color name="plna_mint">#FF3DDCB0</color>
+    <color name="plna_mint_dark">#FF1FA889</color>
+    <color name="plna_on_navy">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#FF0B1F3A</color>
+</resources>

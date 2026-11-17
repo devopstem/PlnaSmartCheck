@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Не бэкапим локальную БД и сессию — меньше риск утечки 16-значного ID. -->
+<full-backup-content>
+    <exclude domain="database" path="plna_smartcheck.db" />
+    <exclude domain="database" path="plna_smartcheck.db-shm" />
+    <exclude domain="database" path="plna_smartcheck.db-wal" />
+    <exclude domain="file" path="datastore/" />
+    <exclude domain="file" path="tesseract/" />
+</full-backup-content>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PLNA Smart Check</string>
+    <string name="home_title">Checklist</string>
+    <string name="profile_cd">Profile</string>
+    <string name="profile_title">Profile</string>
+    <string name="scan_title">Receipt scanner</string>
+    <string name="scan_hint">Point the camera at the receipt QR code</string>
+    <string name="camera_permission_required">Camera access is required to scan QR codes</string>
+
+    <string name="nav_home">Checklist</string>
+    <string name="nav_scan">Scanner</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="please_wait">Please wait</string>
+    <string name="loading_hint">Loading…</string>
+    <string name="loading_ocr_models">Downloading OCR language model</string>
+    <string name="loading_ocr_recognize">Recognizing receipt text</string>
+    <string name="loading_saving">Saving receipt</string>
+
+    <string name="auth_welcome">Welcome</string>
+    <string name="auth_subtitle">No email or phone — only a 16-digit ID. Use any name or a random one.</string>
+    <string name="auth_register_hint">After sign-up, save your ID — you need it to open the account on another phone.</string>
+    <string name="action_register">Sign up</string>
+    <string name="action_login">Log in</string>
+    <string name="action_create_account">Create account</string>
+    <string name="action_logout">Log out</string>
+    <string name="action_save">Save</string>
+    <string name="action_close">Close</string>
+    <string name="field_display_name">Name</string>
+    <string name="field_display_name_hint">e.g. Temur or leave empty</string>
+    <string name="field_account_id">16-digit ID</string>
+
+    <string name="section_account">Account</string>
+    <string name="section_preferences">Preferences</string>
+    <string name="manage_profile">Manage profile</string>
+    <string name="password_security">Security</string>
+    <string name="id_only_hint">ID only</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="sync_cloud">Cloud sync</string>
+    <string name="about_us">About</string>
+    <string name="about_title">About the app</string>
+    <string name="about_p1">PLNA Smart Check helps you keep all your purchases in one place.</string>
+    <string name="about_p2">Take a photo of a receipt or pick an older photo from your gallery. The app reads the store, items, and total for you.</string>
+    <string name="about_p3">Everything is saved on your phone first, then sent to the cloud. So your receipts stay safe even without internet.</string>
+    <string name="about_p4">You get a personal 16-digit number — your key. Tap it in Profile to copy. Keep it safe: with this number you can open the same receipts on another phone.</string>
+    <string name="about_p5">No email or phone number needed. Just a name (or a random one) and your 16-digit ID.</string>
+    <string name="about_author">Created by DevOpsTem</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="id_tap_to_copy">Tap to copy ID</string>
+    <string name="id_copied">ID copied</string>
+    <string name="add_receipt_title">How to add a receipt?</string>
+    <string name="add_receipt_subtitle">QR, camera photo, or gallery. Then check the data and save.</string>
+    <string name="mode_qr_title">QR code</string>
+    <string name="mode_qr_subtitle">Scan the QR on the receipt</string>
+    <string name="mode_ocr_title">Camera text</string>
+    <string name="mode_ocr_subtitle">Photograph the receipt text</string>
+    <string name="mode_gallery_title">From gallery</string>
+    <string name="mode_gallery_subtitle">Choose an existing photo</string>
+    <string name="home_empty_title">No receipts yet</string>
+    <string name="home_empty_subtitle">Add a receipt in the Scanner tab</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <string name="stats_title">Statistics</string>
+    <string name="stats_subtitle">Weeks / months and top products</string>
+    <string name="stats_week">Week</string>
+    <string name="stats_month">Month</string>
+    <string name="stats_spent">Spent</string>
+    <string name="stats_health_title">Healthy vs junk</string>
+    <string name="stats_top_products">Bought most often</string>
+    <string name="stats_empty">No purchases in this period yet</string>
+    <string name="stats_product_meta">Times: %1$d · Total: %2$s</string>
+
+    <string name="health_healthy">Healthy</string>
+    <string name="health_harmful">Junk</string>
+    <string name="health_neutral">Neutral</string>
+    <string name="health_hint">Tap the color tag to switch: healthy → junk → neutral</string>
+
+    <string name="receipt_detail_title">Receipt</string>
+    <string name="receipt_not_found">Receipt not found</string>
+    <string name="receipt_total">Total: %1$s</string>
+    <string name="purchase_fallback">Purchase</string>
+    <string name="field_store">Store</string>
+    <string name="field_product">Product</string>
+    <string name="action_edit_receipt">Edit</string>
+    <string name="action_delete_receipt">Delete</string>
+    <string name="delete_confirm_title">Delete receipt?</string>
+    <string name="delete_confirm_body">It will be removed from this phone and the cloud. This cannot be undone.</string>
+</resources>

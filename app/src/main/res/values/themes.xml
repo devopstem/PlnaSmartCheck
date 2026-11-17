@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppCompat нужен для смены языка приложения (ru / be / en) -->
+    <style name="Theme.PlnaSmartCheck" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

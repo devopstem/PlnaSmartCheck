@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed/monochrome launcher glyph: PLNA + check accents -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Simplified PLNA wordmark as bars/blocks for monochrome themed icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,40h6.5v28H28z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,40h14v6.2H28z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35.5,40h6.5v28h-6.5z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,40h6.2v28H46z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,40h6.2v28H56z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,40h12v6.2H56z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,50.9h10v6.2H56z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,68 L78,40 L84,40 L90,68 L83.5,68 L82.3,61.5 L79.7,61.5 L78.5,68 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80.2,56.2h5.6l-1.1,-6.3h-3.4z" />
+
+    <!-- Check under LN -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,74 L52.2,78.2 L60.5,69.5 L63.2,72.2 L52.2,83.2 L45.3,76.3 Z" />
+</vector>

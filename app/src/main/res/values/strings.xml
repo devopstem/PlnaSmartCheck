@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PLNA Smart Check</string>
+    <string name="home_title">Чек-лист</string>
+    <string name="profile_cd">Личный кабинет</string>
+    <string name="profile_title">Профиль</string>
+    <string name="scan_title">Сканер чека</string>
+    <string name="scan_hint">Наведите камеру на QR-код чека</string>
+    <string name="camera_permission_required">Нужен доступ к камере для сканирования QR</string>
+
+    <string name="nav_home">Чек-лист</string>
+    <string name="nav_scan">Сканер</string>
+    <string name="nav_stats">Статистика</string>
+    <string name="nav_profile">Профиль</string>
+
+    <string name="please_wait">Подождите, пожалуйста</string>
+    <string name="loading_hint">Идёт загрузка…</string>
+    <string name="loading_ocr_models">Скачиваем языковую модель OCR (один раз)</string>
+    <string name="loading_ocr_recognize">Распознаём текст чека</string>
+    <string name="loading_ocr_cached">Русский язык уже на телефоне</string>
+    <string name="loading_saving">Сохраняем чек</string>
+
+    <string name="auth_welcome">Добро пожаловать</string>
+    <string name="auth_subtitle">Без email и телефона — только 16-значный ID. Имя можно любое или случайное.</string>
+    <string name="auth_register_hint">После регистрации сохраните ID — он нужен, чтобы открыть аккаунт на другом телефоне.</string>
+    <string name="action_register">Регистрация</string>
+    <string name="action_login">Вход</string>
+    <string name="action_create_account">Создать аккаунт</string>
+    <string name="action_logout">Выйти</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_close">Закрыть</string>
+    <string name="field_display_name">Имя</string>
+    <string name="field_display_name_hint">Например, Temur или оставьте пустым</string>
+    <string name="field_account_id">16-значный ID</string>
+
+    <string name="section_account">Аккаунт</string>
+    <string name="section_preferences">Настройки</string>
+    <string name="manage_profile">Управление профилем</string>
+    <string name="password_security">Безопасность</string>
+    <string name="id_only_hint">Только ID</string>
+    <string name="language">Язык</string>
+    <string name="theme">Тема</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="sync_cloud">Синхронизация с облаком</string>
+    <string name="about_us">О приложении</string>
+    <string name="about_title">О приложении</string>
+    <string name="about_p1">PLNA Smart Check помогает хранить ваши покупки в одном месте.</string>
+    <string name="about_p2">Сфотографируйте чек или выберите старое фото из галереи. Приложение само прочитает магазин, товары и сумму.</string>
+    <string name="about_p3">Сначала всё сохраняется на телефоне, потом аккуратно отправляется в облако. Так чеки не пропадут, даже если интернет пропал.</string>
+    <string name="about_p4">У вас есть личный номер из 16 цифр. Это ваш ключ. Нажмите на него в профиле — номер скопируется. Сохраните его: по этому номеру можно открыть те же чеки на другом телефоне.</string>
+    <string name="about_p5">Почта и телефон не нужны. Достаточно имени (или случайного) и вашего 16-значного номера.</string>
+    <string name="about_author">Created by DevOpsTem</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="id_tap_to_copy">Нажмите, чтобы скопировать ID</string>
+    <string name="id_copied">ID скопирован</string>
+    <string name="add_receipt_title">Как добавить чек?</string>
+    <string name="add_receipt_subtitle">QR, фото с камеры или снимок из галереи. Потом проверьте данные и сохраните.</string>
+    <string name="mode_qr_title">QR-код</string>
+    <string name="mode_qr_subtitle">Сканировать QR на чеке</string>
+    <string name="mode_ocr_title">Текст с камеры</string>
+    <string name="mode_ocr_subtitle">Сфотографировать текст чека</string>
+    <string name="mode_gallery_title">Из галереи</string>
+    <string name="mode_gallery_subtitle">Выбрать уже сделанное фото</string>
+    <string name="home_empty_title">Пока нет чеков</string>
+    <string name="home_empty_subtitle">Добавьте чек через вкладку «Сканер»</string>
+    <string name="online">Онлайн</string>
+    <string name="offline">Офлайн</string>
+
+    <string name="stats_title">Статистика</string>
+    <string name="stats_subtitle">Недели / месяцы и топ товаров</string>
+    <string name="stats_week">Неделя</string>
+    <string name="stats_month">Месяц</string>
+    <string name="stats_spent">Потрачено</string>
+    <string name="stats_health_title">Полезное и вредное</string>
+    <string name="stats_top_products">Что покупали чаще</string>
+    <string name="stats_empty">Пока нет покупок за этот период</string>
+    <string name="stats_product_meta">Раз: %1$d · Сумма: %2$s</string>
+
+    <string name="health_healthy">Полезно</string>
+    <string name="health_harmful">Вредно</string>
+    <string name="health_neutral">Нейтрально</string>
+    <string name="health_hint">Нажмите цветную метку, чтобы сменить: полезно → вредно → нейтрально</string>
+
+    <string name="receipt_detail_title">Чек</string>
+    <string name="receipt_not_found">Чек не найден</string>
+    <string name="receipt_total">Итого: %1$s</string>
+    <string name="purchase_fallback">Покупка</string>
+    <string name="field_store">Магазин</string>
+    <string name="field_product">Товар</string>
+    <string name="action_edit_receipt">Изменить</string>
+    <string name="action_delete_receipt">Удалить</string>
+    <string name="delete_confirm_title">Удалить чек?</string>
+    <string name="delete_confirm_body">Чек исчезнет с телефона и из облака. Это нельзя отменить.</string>
+</resources>
